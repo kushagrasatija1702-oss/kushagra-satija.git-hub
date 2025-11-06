@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kushagra Satija | Portfolio</title>
+<style>
+body {
+font-family: "Poppins", sans-serif;
+margin: 0;
+background-color: #0a0a0a;
+color: #ffffff;
+}
+
+header {
+background-color: #1e1e1e;
+text-align: center;
+padding: 60px 20px;
+}
+
+header h1 {
+font-size: 2.5em;
+color: #00adb5;
+}
+
+header p {
+font-size: 1.1em;
+color: #cccccc;
+margin-top: 10px;
+}
+
+nav {
+background-color: #111;
+display: flex;
+justify-content: center;
+padding: 10px 0;
+}
+
+nav a {
+color: #00adb5;
+text-decoration: none;
+margin: 0 20px;
+font-weight: 600;
+}
+
+nav a:hover {
+color: #ffffff;
+}
+
+section {
+padding: 50px 20px;
+max-width: 900px;
+margin: auto;
+}
+
+h2 {
+color: #00adb5;
+border-bottom: 2px solid #00adb5;
+padding-bottom: 10px;
+margin-bottom: 20px;
+}
+
+.project {
+background-color: #1a1a1a;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 10px;
+}
+
+.project h3 {
+color: #ffffff;
+}
+
+.project p {
+color: #cccccc;
+}
+
+footer {
+text-align: center;
+background-color: #111;
+color: #888;
+padding: 20px 0;
+margin-top: 30px;
+}
+
+.skills {
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+}
+
+.skill {
+background-color: #00adb5;
+color: #0a0a0a;
+padding: 10px 20px;
+border-radius: 20px;
+font-weight: 600;
+}
+
+@media (max-width: 600px) {
+header h1 {
+font-size: 2em;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>👋 I'm Kushagra Satija</h1>
+<p>B.Tech (VLSI) | Manipal University Jaipur | Aspiring Embedded Systems Developer</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About Me</h2>
+<p>
+Hello! I'm <strong>Kushagra Satija</strong>, a first-year B.Tech student specializing in
+<strong>Electronics Engineering (VLSI)</strong> at <strong>Manipal University Jaipur</strong>.
+I’m passionate about learning how systems work at the hardware-software level, and I enjoy writing
+clean, logical code that brings ideas to life.
+</p>
+<p>
+I started with <strong>C programming</strong> and basic <strong>HTML</strong> to understand how
+code communicates with computers. My goal is to become an <strong>Embedded Systems Developer</strong>
+and continue improving my programming skills every day.
+</p>
+</section>
+
+<section id="projects">
+<h2>My Projects</h2>
+
+<div class="project">
+<h3>🧮 Calculator in C</h3>
+<p>
+A console-based calculator that performs basic arithmetic operations like addition, subtraction,
+multiplication, and division.
+<br><strong>Concepts used:</strong> Functions, user input, switch-case.
+</p>
+</div>
+
+<div class="project">
+<h3>🎮 Tic Tac Toe Game</h3>
+<p>
+A two-player game built in C using loops, arrays, and condition checking to simulate the
+classic tic-tac-toe board.
+<br><strong>Concepts used:</strong> 2D arrays, logic design, control flow.
+</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="skill">C Programming</div>
+<div class="skill">HTML</div>
+<div class="skill">Problem Solving</div>
+<div class="skill">Embedded Systems (Learning)</div>
+<div class="skill">VLSI Concepts</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact Me</h2>
+<p>📩 Email: <a href="mailto:kushagrasatija1728@gmail.com" style="color:#00adb5;">kushagrasatija1728@gmail.com</a></p>
+<p>💻 GitHub: <a href="https://github.com/" target="_blank" style="color:#00adb5;">github.com/kushagra-satija</a></p>
+<p>💼 LinkedIn: <a href="https://linkedin.com/" target="_blank" style="color:#00adb5;">linkedin.com/in/kushagra-satija</a></p>
+</section>
+
+<footer>
+© 2025 Kushagra Satija | Designed with ❤️ using HTML & CSS
+</footer>
+
+</body>
+</html>
